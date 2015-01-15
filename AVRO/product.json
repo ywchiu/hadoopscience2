@@ -1,0 +1,4 @@
+{"product_id":1000,"product_name":"Hugo Boss XY","product_description": {"string": "Hugo Xy Men 100 ml"}, "product_status": "AVAILABLE", "product_category":["fragrance","perfume"],"price":10.35,"product_hash":"XY123"}
+{"product_id":1001,"product_name":"Hugo Men Red","product_description": {"string": "Hugo Men Red 150 ml"}, "product_status": "ONLY_FEW_LEFT", "product_category":["fragrance","perfume"],"price":12.99,"product_hash":"XY456"}
+{"product_id":2000,"product_name":"Cherokee Polo T Shirt","product_description": {"string": "Cherokee Medium Blue Polo T Shirt"}, "product_status": "AVAILABLE", "product_category":["T-shirts","V-Neck","Cotton", "Medium"],"price":50.00,"product_hash":"XY789"}
+{"product_id":2001,"product_name":"Ruggers Smart","product_description": {"string": "Ruggers Smart White Small Polo T Shirt"}, "product_status": "ONLY_FEW_LEFT", "product_category":["T-shirts","Round-Neck","Woolen", "Small"],"price":9.99,"product_hash":"XY987"}

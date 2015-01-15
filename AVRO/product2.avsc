@@ -1,0 +1,10 @@
+{
+    "namespace":"com.largitdata.db.model",
+    "type":"record",
+     "doc":"This is product schema",
+    "name":"Product",
+    "fields":[
+        {"name":"product_id","type": "string"},
+        {"name":"product_name","type": "string","doc":"This is the name of the product"}
+    ]
+}
