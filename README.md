@@ -10,6 +10,7 @@ password:itri
 https://www.youtube.com/watch?v=FQr2nVvkLzc
 
 sudo yum install python-pip
+
 sudo pip install requests
 
 ### [操作範例] 如何使用Sqoop彙整結構化資料
