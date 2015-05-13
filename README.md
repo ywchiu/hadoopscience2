@@ -23,20 +23,4 @@ https://www.youtube.com/watch?v=EEjJzNwlPpk
 ### [操作範例] 如何使用Hive
 https://www.youtube.com/watch?v=UjxBQSy8IBM
 
-install recommendation system
-- 1. Download ec.tar.gz
-- 2. tar -zxvf ec.tar.gz
-- 3. sudo mkdir /webapps
-- 4. sudo mv ec /webapps/
-- 5. vi /webapps/ec/ec/urls.py
--         'document_root': '/webapps/ec/static/'
-- 6. sudo easy_install pip
-- 7. pip install django==1.4.5
-- 8. pip install happybase
-- 9. python manage.py runserver 127.0.0.1:11111
 
-restart hbase
-- 1. hbase master stop
-- 2. hbase master start
-- 3. hbase regionserver stop
-- 4. habse regionserver start
