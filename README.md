@@ -1,13 +1,16 @@
-# Big Data資料處理與分析(Hadoop)進階班
+# 巨量資料分析應用與實作班
 =============
 
 ### Slides:
-https://www.slideshare.net/secret/wbBSOn8Dp9LOf8
+https://www.slideshare.net/secret/4X5GnpTWft8AxO
 
-password:iii
+password:itri
 
 ### [實際應用] 使用Hadoop 分析 Facebook 打卡資訊
 https://www.youtube.com/watch?v=FQr2nVvkLzc
+
+sudo yum install python-pip
+sudo pip install requests
 
 ### [操作範例] 如何使用Sqoop彙整結構化資料
 https://www.youtube.com/watch?v=ZUdXOwnsPPk
