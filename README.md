@@ -1,34 +1,26 @@
-Hadoop Course - To Build Recommendation System
+# Big Data資料處理與分析(Hadoop)進階班
 =============
 
 ### Slides:
-https://www.slideshare.net/secret/jAXKRnPCrknokG
+https://www.slideshare.net/secret/wbBSOn8Dp9LOf8
 
+password:iii
 
-### Package To Download
+### [實際應用] 使用Hadoop 分析 Facebook 打卡資訊
+https://www.youtube.com/watch?v=FQr2nVvkLzc
 
-Nutch (在shell 下):
-- 下載Nutch 1.9: wget http://ftp.tc.edu.tw/pub/Apache/nutch/1.9/apache-nutch-1.9-bin.tar.gz
+### [操作範例] 如何使用Sqoop彙整結構化資料
+https://www.youtube.com/watch?v=ZUdXOwnsPPk
 
+### [操作範例] 如何使用Flume彙整非結構化資料
+https://www.youtube.com/watch?v=_XXd35NCS2M
 
-Python (在shell 下):
+### [操作範例] 如何使用Pig
+https://www.youtube.com/watch?v=CRujiTH6w18
 
-- sudo pip install requests
-- sudo pip install BeautifulSoup4
-- sudo pip install grequests
-- sudo pip install xmltodict
+https://www.youtube.com/watch?v=EEjJzNwlPpk
 
-R (在R 下; Shell 下打入R):
-
-- install.packages("Amelia")
-
-### 下載Tableau Desktop
-http://www.tableausoftware.com/products/trial
-
-### 安裝連接Driver
-http://www.tableausoftware.com/support/drivers
-
-Mahout 與機器學習
-http://www.slideshare.net/secret/gDvLRYko4Cfcn3
+### [操作範例] 如何使用Hive
+https://www.youtube.com/watch?v=UjxBQSy8IBM
 
 

@@ -4,7 +4,7 @@ import random
 
 def buildURL():
     # build random URL
-    url_list=['www.largitdata.com', 'www.taiwanmobile.com', 'www.google.com']
+    url_list=['www.largitdata.com', 'course.largitdata.com', 'www.google.com']
     return random.choice(url_list)
 
 def buildPath():
