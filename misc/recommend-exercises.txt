@@ -20,3 +20,13 @@ python manage.py runserver 127.0.0.1:11111
 
 //Reading log
 tail -f /tmp/postlog.txt
+
+//Fetch agent.properties
+wget https://github.com/ywchiu/hadoopscience2/raw/master/Recommend/agent.properties
+
+//Copy Flume
+sudo cp *.properties /etc/hadoop/conf
+
+//Start flume
+flume-ng agent --conf /etc/hadoop/conf --conf-file /etc/hadoop/conf/agent.properties --name agent
+
