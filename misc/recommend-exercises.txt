@@ -30,3 +30,7 @@ sudo cp *.properties /etc/hadoop/conf
 //Start flume
 flume-ng agent --conf /etc/hadoop/conf --conf-file /etc/hadoop/conf/agent.properties --name agent
 
+//Examine hdfs
+hadoop fs -cat ecout/*
+
+pig DataETL.pig
