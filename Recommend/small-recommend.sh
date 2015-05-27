@@ -1,10 +1,6 @@
 #!/bin/bash
-
-hadoop fs -mkdir ecproduct
-hadoop fs -put small.csv ecproduct/
-
 # run distributed ALS
-mahout parallelALS --input ecproduct --output als2/out --tempDir als2/tmp --numFeatures 5 \
+mahout parallelALS --input ecprocess --output als2/out --tempDir als2/tmp --numFeatures 5 \
 --numIterations 2 --lambda 0.065 --numThreadsPerSolver 1
 
 # make recommendations

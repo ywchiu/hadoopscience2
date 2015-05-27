@@ -33,4 +33,8 @@ flume-ng agent --conf /etc/hadoop/conf --conf-file /etc/hadoop/conf/agent.proper
 //Examine hdfs
 hadoop fs -cat ecout/*
 
+//Fetch DataETL.pig
+wget https://github.com/ywchiu/hadoopscience2/raw/master/Recommend/DataETL.pig
 pig DataETL.pig
+
+
