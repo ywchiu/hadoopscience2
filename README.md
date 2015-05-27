@@ -27,4 +27,9 @@ https://www.youtube.com/watch?v=EEjJzNwlPpk
 ### [操作範例] 如何使用Hive
 https://www.youtube.com/watch?v=UjxBQSy8IBM
 
+### Recommendation System
+
+https://youtu.be/RoRixPm4XyQ
+
+https://www.youtube.com/watch?v=l0TemN7lpCs
 
