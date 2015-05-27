@@ -37,4 +37,10 @@ hadoop fs -cat ecout/*
 wget https://github.com/ywchiu/hadoopscience2/raw/master/Recommend/DataETL.pig
 pig DataETL.pig
 
+//Add additional dataset
+wget https://github.com/ywchiu/hadoopscience2/raw/master/Recommend/small.csv
+hadoop fs -put small.csv  ecprocess
 
+//Fetch recommendation script
+wget https://github.com/ywchiu/hadoopscience2/raw/master/Recommend/small-recommend.sh
+sh small-recommend.sh
