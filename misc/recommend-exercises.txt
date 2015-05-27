@@ -50,7 +50,7 @@ hadoop fs -cat small_recommend/*
 
 //Restart HBase
 hbase shell
-> create 't1', 'c1'
+> create 'mydata', 'mycf'
 
 sudo service zookeeper-server restart
 sudo env JAVA_HOME=/usr/java/jdk1.7.0_67-cloudera /usr/lib/hbase/bin/hbase-daemon.sh restart regionserver
